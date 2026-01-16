@@ -1,0 +1,29 @@
+/* Specific Team Page Styles */
+.bento-container.team {
+    grid-auto-rows: 320px; /* Slightly taller for profile descriptions */
+}
+
+/* Founder/CEO Feature Styling */
+.glass-card.wide.founder {
+    background: linear-gradient(135deg, rgba(255,255,255,0.8) 0%, rgba(232, 245, 233, 0.5) 100%);
+    border: 1px solid var(--primary-light);
+}
+
+/* Head Dev Feature Styling */
+.glass-card.tall.lead {
+    background: linear-gradient(180deg, rgba(255,255,255,0.8) 0%, rgba(227, 242, 253, 0.5) 100%);
+}
+
+/* Profile Icon Animation */
+.glass-card:hover .icon-box {
+    transform: scale(1.1) rotate(-5deg);
+    transition: var(--transition);
+}
+
+/* Social/Portfolio Links in Team Cards */
+.card-info .cta-link {
+    margin-top: auto;
+    padding-top: 15px;
+    border-top: 1px solid rgba(0,0,0,0.05);
+    width: 100%;
+}
